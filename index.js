@@ -15,7 +15,7 @@ $(function(){
     dots: true,//下部ドットナビゲーションの表示
         pauseOnFocus: true,//フォーカスで一時停止を無効
         pauseOnHover: true,//マウスホバーで一時停止を無効
-        pauseOnDotsHover: false,//ドットナビゲーションをマウスホバーで一時停止を無効
+        pauseOnDotsHover: true,//ドットナビゲーションをマウスホバーで一時停止を無効
 });
 
  });
