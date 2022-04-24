@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:serif;
+	-webkit-font-smoothing: antialiased;
+}
+/*ヘッダー*/
+header{
+	position: fixed;
+	height: 60px;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 1);
+	z-index: 100;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+.fa-bars{
+	float: left;
+	padding: 20px;
+	margin-left: 5px;
+	font-size: 20px;
+	color: white;
+}
+.header-img{
+	float: right;
+	margin-right: 20px;
+	height: 60px;
+}
+/*トップ画像*/
+.img-box{
+	padding-top: 0px;
+	text-align: right;
+	height:600px;
+	background-size: cover;
+}
+.first{
+	background-image: url(image/DSC_1803.JPG);
+}
+.second{
+	background-image: url(image/DSC_1788.JPG);
+}
+.third{
+	background-image: url(image/DSC_1752.JPG);
+}
+.main-image-text{
+	display: none;
+	filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.8));
+	margin-top: 145px;
+	margin-right: 45px;
+	width: 110px;
+}
+/*サブ画像*/
+.subimg-box2{
+	height:200px;
+	background-size: cover;
+}
+.one{
+	background-image: url(image/IMG_1968.JPG);
+}
+.two{
+	background-image: url(image/IMG_1966.JPG);
+}
+.subimg-box3{
+	height:200px;
+	background-size: cover;
+}
+.four{
+	background-image: url(image/IMG_1958.JPG);
+}
+.five{
+	background-image: url(image/IMG_1960.JPG);
+}
+.six{
+	background-image: url(image/IMG_1965.JPG);
+}
+.text-box{
+	margin-top: 10px;
+	padding: 50px 30px;
+}
+.text-box h2{
+	line-height: 40px;
+	font-weight: 400;
+	font-size: 30px;
+}
+.text-box p{
+	margin-top: 10px;
+	line-height: 30px;
+	font-size: 14px;
+}
+h3{
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+/*フッター*/
+footer{
+	padding: 20px 30px;
+}
+footer a{
+	display: block;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.footer-image{
+	width: 110px;
+}
+.map-text-box{
+	padding: 20px 5px 15px 5px;
+}
+.map-text-box h2{
+	padding-bottom:3px ;
+	font-size: 18px;
+	font-weight: normal;
+}
+.map-text-box p{
+	padding-left: 5px;
+	font-size: 12px;
+}
+.map{
+	width: 100%;
+	margin: 0 auto;
+}
+.map-box{
+	text-align: center;
+}
+#copyright{
+	font-size: 11px;
+	padding-top: 20px;
+}
+#main{
+	color: white;
+	background-color: rgba(0, 0, 0, 1);
+}
+
+.slider {
+    position:relative;
+  z-index: 1;
+  /*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
+}
+
+.slider-item {
+    width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+    height:100vh;/*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+    background-repeat: no-repeat;/*背景画像をリピートしない*/
+    background-position: center;/*背景画像の位置を中央に*/
+    background-size: cover;/*背景画像が.slider-item全体を覆い表示*/
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+ display: none;
+}
+
+.slick-dots li {
+    display:none;
+}
+
