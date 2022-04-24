@@ -33,13 +33,13 @@ header{
 	background-size: cover;
 }
 .first{
-	background-image: url(image/DSC_1803.JPG);
+	background-image: url(DSC_1803.JPG);
 }
 .second{
-	background-image: url(image/DSC_1788.JPG);
+	background-image: url(DSC_1788.JPG);
 }
 .third{
-	background-image: url(image/DSC_1752.JPG);
+	background-image: url(DSC_1752.JPG);
 }
 .main-image-text{
 	display: none;
@@ -54,23 +54,23 @@ header{
 	background-size: cover;
 }
 .one{
-	background-image: url(image/IMG_1968.JPG);
+	background-image: url(IMG_1968.JPG);
 }
 .two{
-	background-image: url(image/IMG_1966.JPG);
+	background-image: url(IMG_1966.JPG);
 }
 .subimg-box3{
 	height:200px;
 	background-size: cover;
 }
 .four{
-	background-image: url(image/IMG_1958.JPG);
+	background-image: url(IMG_1958.JPG);
 }
 .five{
-	background-image: url(image/IMG_1960.JPG);
+	background-image: url(IMG_1960.JPG);
 }
 .six{
-	background-image: url(image/IMG_1965.JPG);
+	background-image: url(IMG_1965.JPG);
 }
 .text-box{
 	margin-top: 10px;
