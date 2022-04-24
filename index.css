@@ -7,7 +7,7 @@
 /*ヘッダー*/
 header{
 	position: fixed;
-	height: 60px;
+	height: 80px;
 	width: 100vw;
 	background-color: rgba(0, 0, 0, 1);
 	z-index: 100;
@@ -15,14 +15,14 @@ header{
 }
 .fa-bars{
 	float: left;
-	padding: 20px;
-	margin-left: 5px;
+	padding: 30px;
 	font-size: 20px;
 	color: white;
 }
 .header-img{
 	float: right;
 	margin-right: 20px;
+	margin-top: 10px;
 	height: 60px;
 }
 /*トップ画像*/
@@ -44,13 +44,13 @@ header{
 .main-image-text{
 	display: none;
 	filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.8));
-	margin-top: 145px;
-	margin-right: 45px;
-	width: 110px;
+	margin-top: 90px;
+	margin-right: 50px;
+	width: 130px;
 }
 /*サブ画像*/
 .subimg-box2{
-	height:200px;
+	height:250px;
 	background-size: cover;
 }
 .one{
@@ -60,7 +60,7 @@ header{
 	background-image: url(IMG_1966.JPG);
 }
 .subimg-box3{
-	height:200px;
+	height:250px;
 	background-size: cover;
 }
 .four{
