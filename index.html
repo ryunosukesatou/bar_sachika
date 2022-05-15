@@ -14,11 +14,21 @@
 	<div id="wrap">
 		<!--ヘッダー -->
 		<header>
-			<i class="fa fa-bars"></i>
-			<img class="header-img" src="IMG_2016-removebg-preview.png">
+			<i class="fa fa-bars nav-btn"></i>
+			<a href="index.html"><img class="header-img" src="IMG_2016-removebg-preview.png"></a>
 		</header>
 		<!--ナビゲーション-->
-		<nav></nav>
+		<nav>
+			<ul>
+				<div class="hide-btn"><span>×</span></div>
+				<a href="index.html"><li>ホーム<span>></span></li></a>
+				<a href="#a-footer"><li>営業時間<span>></span></li></a>
+				<a href="#a-footer"><li>アクセス<span>></span></li></a>
+				<a href="#a-footer"><li>お支払い方法<span>></span></li></a>
+				<a href="#a-footer"><li>お問い合わせ<span>></span></li></a>
+				<li class="nav-img-li"><img class="nav-img" src="IMG_2016-removebg-preview.png"></li>
+			</ul>
+		</nav>
 		<div style="height: 80px;"></div>
 		<!--メイン-->
 		<div id="main">
@@ -60,7 +70,7 @@
 				<div class="map-box">
 				<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.2310613269756!2d139.7588772152585!3d35.671312180196544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bef3e062dbf%3A0x11e129dc20033b7c!2z44CSMTA0LTAwNjEg5p2x5Lqs6YO95Lit5aSu5Yy66YqA5bqn77yW5LiB55uu77yT4oiS77yY!5e0!3m2!1sja!2sjp!4v1650758039638!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				
-			<footer>
+			<footer id="a-footer">
 				<img class="footer-image" src="IMG_2016-removebg-preview.png">
 				<p class="open">営業：月曜日〜金曜日　<br>OPEN 18:00 ～ LAST 2:00</p>
 				<a onclick="message()" href="tel:03-4400-8202">03-4400-8202</a>

@@ -3,6 +3,8 @@
 	padding: 0;
 	font-family:serif;
 	-webkit-font-smoothing: antialiased;
+	color: white;
+	text-decoration: none;
 }
 /*ヘッダー*/
 header{
@@ -24,6 +26,62 @@ header{
 	margin-right: 20px;
 	margin-top: 10px;
 	height: 60px;
+}
+.nav-img{
+	height: 60px;
+}
+.nav-img-li{
+	height: 60px !important;
+}
+
+nav{
+	display: none;
+	position: fixed;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	text-align: left;
+}
+nav ul{
+	display: none;
+	width:100vw;
+	height: 100vh;
+	background-color: black;
+}
+nav li{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 50px;
+	font-size: 14px;
+	font-family: "Hiragino Sans";
+	font-weight: 500;
+	text-align: left;
+	cursor: pointer;
+	transition:all 0.3s;
+	white-space: nowrap;
+	color: white;
+}
+nav a{
+	font-family: "Hiragino Sans";
+}
+nav li:hover{
+	text-shadow: 3px 3px 1px rgba(0, 0, 0, .3);
+}
+nav span{
+	float: right;
+}
+.hide-btn{
+	padding: 0 60px;
+	height: 96px;
+	text-align: right;
+	transition:all 0.3s;
+	cursor: pointer;
+}
+.hide-btn span{
+	font-size: 30px;
+	color: white;
+	line-height: 96px;
 }
 /*トップ画像*/
 .img-box{
